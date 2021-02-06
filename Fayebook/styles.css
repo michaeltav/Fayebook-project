@@ -1,0 +1,90 @@
+/* common styles */
+body {
+    background-color: rgba(220, 226, 235, 0.616);
+    margin: 0;
+    padding: 0;
+}
+
+/* end of common styles */
+
+/* main page */
+.main-page {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr min-content;
+ }
+
+ /* left */
+ .left {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-content div {
+    display: flex;
+    align-items: center;
+    margin: 4rem;
+}
+
+.left-content-heading {
+    font-size: 2rem;
+}
+ /*end of left */
+/* end of main page */
+
+.left-content-heading {
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+.left-content h1 {
+    color: royalblue;
+    font-size: 50px;
+    display: grid;
+}
+
+.left-content h3 {
+    font-size: 30px;
+}
+/* footer */
+.main-page-footer {
+    grid-column: 1 / -1;
+    grid-row: 2 / -1;
+    background-color: #f5f4f4;
+    padding: 1.5rem;
+    border-top: .1rem solid #ddd;
+}
+
+.main-page-footer ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.main-page-footer a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #444;
+    font-weight: 200;
+}
+/* end of footer */
+/* button */
+.btn-login {
+    cursor: pointer;
+}
+
+.btn-create {
+    cursor: pointer;
+}
+/* end of button */
+/* login */
+.login-page {
+    display: none;
+}
+/* end of login */

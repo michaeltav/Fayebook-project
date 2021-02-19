@@ -6,7 +6,6 @@ body {
 }
 
 /* end of common styles */
-
 /* main page */
 .main-page {
     width: 100%;
@@ -21,7 +20,7 @@ body {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
 }
 
@@ -34,8 +33,7 @@ body {
 .left-content-heading {
     font-size: 2rem;
 }
- /*end of left */
-/* end of main page */
+
 
 .left-content-heading {
     font-family: Arial, Helvetica, sans-serif;    
@@ -50,12 +48,13 @@ body {
 .left-content h3 {
     font-size: 30px;
 }
+/*end of left */
 /* footer */
 .main-page-footer {
-    grid-column: 1 / -1;
+    grid-column: 1 / 1;
     grid-row: 2 / -1;
     background-color: #f5f4f4;
-    padding: 1.5rem;
+    padding: .5rem;
     border-top: .1rem solid #ddd;
 }
 
@@ -83,6 +82,7 @@ body {
     cursor: pointer;
 }
 /* end of button */
+/* end of main page */
 /* login */
 .login-page {
     display: none;

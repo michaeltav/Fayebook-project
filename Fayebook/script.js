@@ -8,6 +8,7 @@ const loginModal = document.querySelector(".login-modal");
 const goToLoginPage = () => {
   mainPage.style.display = "none";
   loginPage.style.display = "grid";
+  loginModal.style.display = "block";
 };
 
 right.addEventListener("click", (e) => {
@@ -17,9 +18,8 @@ right.addEventListener("click", (e) => {
   console.log(e.target.classList[1]);
 });
 
-loginPage.addEventListener("click", (e) => {
+loginModal.addEventListener("click", (e) => {
   if (e.target.classList[1] === "sub-btn") {
-    loginModal.style.display = "block";
   }
   console.log(e.target.classList[1]);
 });

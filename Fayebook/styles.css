@@ -139,5 +139,9 @@ body {
   font-size: 1.6rem;
   color: #868383;
 }
+
+.login-warning {
+  display: none;
+}
 /* end of login modal */
 /* end of login */

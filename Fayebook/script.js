@@ -15,7 +15,7 @@ const goToLoginPage = () => {
 };
 
 const warningMessage = () => {
-  loginWarning.style.display = "gird";
+  loginWarning.style.display = "grid";
 };
 
 right.addEventListener("click", (e) => {

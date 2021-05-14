@@ -3,6 +3,7 @@ body {
   background-color: rgba(220, 226, 235, 0.616);
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 /* end of common styles */
@@ -63,7 +64,7 @@ body {
   grid-column: 1 / 1;
   grid-row: 2 / -1;
   background-color: #f5f4f4;
-  padding: 0rem;
+  padding: 1rem;
   border-top: 0rem solid #ddd;
 }
 
@@ -75,7 +76,7 @@ body {
 
 .main-page-footer a {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1rem;
+  font-size: 0.8rem;
   margin: 0 1rem;
   text-decoration: none;
   color: #444;
@@ -141,7 +142,9 @@ body {
 }
 
 .login-warning {
+  font-family: Arial, Helvetica, sans-serif;
   display: none;
+  color: red;
 }
 /* end of login modal */
 /* end of login */

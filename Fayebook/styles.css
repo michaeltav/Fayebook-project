@@ -22,7 +22,7 @@ body {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
   display: grid;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
 }
 
@@ -53,12 +53,21 @@ body {
 
 /* right */
 .right {
+  grid-column: 4 / 2;
+  grid-row: 1 / 2;
   display: grid;
   justify-content: left;
   align-items: center;
 }
 
 .right-content-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.right-content-form div {
+  position: relative;
 }
 
 /* main modal */
